@@ -14,9 +14,11 @@ country.innerHTML = allCountriesHTML.join(' ')
 
 const getcountriesHTML = country => {
     return `
-     <div class="country"> 
+    <div class="col">
+     <div class="country "> 
      <h2>${country.name.common} </h2>
      <img src="${country.flags.png}">
+     </div>
      </div>
     `
 }
